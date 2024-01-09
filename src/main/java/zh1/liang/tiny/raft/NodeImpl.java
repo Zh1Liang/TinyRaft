@@ -10,9 +10,22 @@ import java.io.Serializable;
 **/
 public class NodeImpl implements Serializable {
 
+
+    private String groupId;
+
+    private volatile State state;
+
+    private PeerId leaderId= new PeerId();
+
+    private final PeerId selfId;
+
+    //集群当前的配置信息
+    private ConfigurationEntry configurationEntry;
+
     private String ip = "test";
     private int port;
     private String str;
+
 
 
 
