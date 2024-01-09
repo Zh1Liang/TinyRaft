@@ -1,8 +1,8 @@
-package zh1.liang.tiny.raft.data;
+package demo.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import zh1.liang.tiny.raft.Task;
+import demo.Task;
 
 import java.io.Serializable;
 

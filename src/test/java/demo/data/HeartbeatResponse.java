@@ -1,4 +1,4 @@
-package zh1.liang.tiny.raft.data;
+package demo.data;
 
 import lombok.Data;
 

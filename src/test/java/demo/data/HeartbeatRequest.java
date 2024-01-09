@@ -1,9 +1,9 @@
-package zh1.liang.tiny.raft.data;
+package demo.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import zh1.liang.tiny.raft.Endpoint;
+import demo.Endpoint;
 
 /**
  * @author: zhe.liang
